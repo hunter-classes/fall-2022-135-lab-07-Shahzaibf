@@ -1,10 +1,10 @@
 * Fall 2022 - Lab 07
 
-* Last name:
+* Last name: Shahzaib
 
-* First name:
+* First name: Fareed
 
-* GitHub username:
+* GitHub username: Shahzaibf
 
 * Notes:
 
