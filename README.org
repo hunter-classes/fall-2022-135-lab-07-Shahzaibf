@@ -6,7 +6,7 @@
 
 * GitHub username: Shahzaibf
 
-* Notes:
+* Notes: Code is ran with ./main < bad-code.cpp as Lab instructed.
 
 
   
