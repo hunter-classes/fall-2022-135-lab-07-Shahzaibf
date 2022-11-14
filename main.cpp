@@ -19,8 +19,6 @@ int main(){
     std::string line;
     int openbrack;
     int closebrack;
-    int total;
-    
     while(getline(std::cin, input)){
         line = removeLeadingSpaces(input);
         closebrack += countChar(line, '}');
