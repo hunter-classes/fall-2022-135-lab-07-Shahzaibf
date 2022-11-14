@@ -10,6 +10,7 @@ Assignment: Lab 7
 #include <iostream>
 #include <string.h>
 #include "funcs.h"
+#include <fstream>
 
 int main(){
     std::cout << removeLeadingSpaces("       int x = 1;  ") << "\n";
@@ -19,14 +20,14 @@ int main(){
     int openbrack;
     int closebrack;
     int total;
+    
     while(getline(std::cin, input)){
         line = removeLeadingSpaces(input);
         closebrack += countChar(line, '}');
-        total = openbrack - closebrack;
-        openbrack += countChar(line, '{');
-        for(int i = 0;i < total;i++){
+        for(int i = 0;i < openbrack - closebrack;i++){
             std::cout << "\t";
         }
+        openbrack += countChar(line, '{');
         std::cout << line << "\n";
     }
     std::cout << "\n";
