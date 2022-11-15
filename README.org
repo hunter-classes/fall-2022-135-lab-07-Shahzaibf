@@ -1,12 +1,12 @@
 * Fall 2022 - Lab 07
 
-* Last name:
+* Last name: Shahzaib
 
-* First name:
+* First name: Fareed
 
-* GitHub username:
+* GitHub username: Shahzaibf
 
-* Notes:
+* Notes: Code is ran with ./main < bad-code.cpp as Lab instructed.
 
 
   
