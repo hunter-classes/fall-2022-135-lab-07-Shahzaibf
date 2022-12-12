@@ -15,6 +15,7 @@ Assignment: Lab 7
 int main(){
     std::cout << removeLeadingSpaces("       int x = 1;  ") << "\n";
     std::cout << countChar("John Cena", 'n') << "\n\n";
+    std::cout << countChar("Pull Request", 'e') << "\n\n"; //added a cout ex - natalie
     std::string input;
     std::string line;
     int openbrack;
